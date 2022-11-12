@@ -5,74 +5,79 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Sweet Alert CDN -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
-
-    <!-- MDB Bootstrap  -->
-    <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
-    <!-- MDB -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.0/mdb.min.css" rel="stylesheet" />
-
-
-
-
-    <!-- Main Css -->
-    <link rel="stylesheet" href="./style-sheets/app.css">
-    <!-- Main Js -->
-    <script src="app.js" type="module"></script>
-    <title>Main Page</title>
+    
+    <!-- Main Css / config js -->
+    <link rel="stylesheet" href="./style-sheets/index.css">
+    <script src="./scripts/firebaseconfig.js" type="module"></script>
+    <title>Signin</title>
 
 </head>
 
 <body>
-    <h1>Hi </h1>
-    <a href="./pages/signin.html"> <button>Sign In </button></a>
-    <a href="./pages/signup.html"> <button>Sign up </button></a>
-    <br>
+    <div class="main-wrapper">
+        <div class="under-main">
+        <div class="main">
 
+    <div class="hero">
+        <br><br>
+            <br><br>
+            <br>
+        <div class="header">
+            
+            <div class="signin sign-head" style="display: inline;">SIGN IN</div>
+            <!-- <div class="signup sign-head" style="display: inline;">SIGN UP</div> -->
+            <a href="./signup.html">
+                <!-- <div class="signup sign-head" style="display: inline;">SIGN UP</div> -->
+            </a>
+        </div>
+        <br>
+        <br>
+        <label for="email">Email</label><br>
+        <input type="email" name="email" id="email" class="input-rounded">
+        <br><br>
+        <label for="password">password</label><br>
+        <input type="password" name="password" id="password" class="input-rounded">
+        <br>
+        <br>
+        <br>
+        <div class="btn-wrap">
+            <input type="button" id="signin" value="Sign In" class="signin-btn">
+        </div>
+        
+                <div class="bottom">
 
+                    <br>
+                    <br>
+                    <hr class="hr"> 
+                  
+                        <a href="#"  class="linga">Forgot password</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="#" class="linka linga" >Create Account</a>
+                        <!-- <br> -->
+                        <!-- <br> -->
 
-
-
-
-
-
-
-
-
-
-
-    <footer>
-        <section class="">
-            <!-- Footer -->
-            <footer class="text-center text-white" style="background-color: #0a4275;">
-                <!-- Grid container -->
-                <div class="container p-4 pb-0">
-                    <!-- Section: CTA -->
-                    <section class="">
-                        <p class="d-flex justify-content-center align-items-center">
-                            <span class="me-3">Register Here</span>
-                            <button type="button" class="btn btn-outline-light btn-rounded">
-                                Sign up!
-                            </button>
-                        </p>
-                    </section>
-                    <!-- Section: CTA -->
+                    </div>
+                    
                 </div>
-                <!-- Grid container -->
+                
+            </div>
+            
+        </div>
+        </div>
+        
+        
+        
 
-                <!-- Copyright -->
-                <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-                    © 2023 Copyright:
-                    <a class="text-white" href="#">HUX Production</a>
-                </div>
-                <!-- Copyright -->
-            </footer>
-            <!-- Footer -->
-        </section>
-    </footer>
+
+
+    </div>
+
+
+    <script src="./scripts/index.js" type="module"></script>
+
 </body>
 
 </html>

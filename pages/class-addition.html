@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style-sheets/class-addition.css">
+    <!-- GetBootstrap Form CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Main Css / ConfigJs-->
+    <link rel="stylesheet" href="../style-sheets/class-addition.css">
+</head>
+
+<body>
+    <div class="header">
+
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+        </ul>
+
+        <!-- <img src="" alt=""> -->
+    </div>
+    <br>
+    <div class="main-wrapper">
+
+
+        <div class="main">
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputEmail4">Course Name</label>
+                        <input type="text" class="form-control" id="course-name" placeholder="Course Name">
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="inputState">Batch</label>
+                        <select id="batch" class="form-control">
+                            <option selected>01</option>
+                            <option selected>03</option>
+                            <option selected>08</option>
+                            <option selected>05</option>
+                            <option selected>00</option>
+                            <option>...</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputPassword4">Section Name</label>
+                        <input type="text" class="form-control" id="sectionName" placeholder="Section Name">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputPassword4">Class Timing</label>
+                        <input type="text" class="form-control" id="class-timing" placeholder="Class timing">
+                    </div>
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="inputState">Schedule</label>
+                    <select id="Schedule" class="form-control">
+                        <option selected>Monday,wednesday</option>
+                        <option selected>friday,Monday,wednesday</option>
+                        <option selected>Sunday</option>
+                        <option selected>Choose...</option>
+                        <option>...</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="inputState">Teacher Name</label>
+                    <select id="Teacher-name" class="form-control">
+                        <option selected>Sir Haider</option>
+                        <option selected>Sir Ghous</option>
+                        <option selected>Sir Inzamam</option>
+                        <option selected>Choose...</option>
+                        <option>...</option>
+                    </select>
+                </div>
+
+                <br>
+                <button type="button" class="btn btn-primary" id="add-class">Add Class</button>
+            </form>
+        </div>
+</div>
+
+
+
+<script src="../scripts/class-addition.js" type="module"></script>
+</body>
+
+</html>

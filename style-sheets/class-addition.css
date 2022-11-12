@@ -1,0 +1,37 @@
+
+.header {
+    background-color: rgba(13, 10, 70, 0.903);
+}
+.header ul {
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.nav-link{
+    color: white;
+}
+.main-wrapper {
+    display: flex;
+    justify-content: center;
+ }
+
+
+/* Input Widh Controlling */
+.form-group {
+    width: 510px;
+}
+
+.main {
+    /* position: inherit; */
+    /* width:100%; */
+}
+
+
+@media (min-width:300px) and (max-width:425px) {
+
+    .form-group {
+        width: 310px;
+    }
+
+}

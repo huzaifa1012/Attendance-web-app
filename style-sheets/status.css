@@ -118,3 +118,6 @@ body {
 p {
     margin-bottom: 2px;
 }
+::placeholder {
+    color: #f3f3f3;
+}

@@ -18,13 +18,16 @@ body {
     align-items: center;
     width: 100vw;
     height: 100vh;
-    background-color: rgba(13, 10, 70, 0.903);
+    /* background-color: rgba(13, 10, 70, 0.903); */
+    /* background-color: rgba(11, 131, 0, 0.903); */
+    background: rgb(35,101,0);
+    background: linear-gradient(90deg, rgba(35,101,0,0.7203256302521008) 0%, rgba(0,0,80,0.8239670868347339) 100%);
     transition: 0.3s;
     
 }
 
 .under-main {
-    background-image: url('./IMG/extremely-focused-male-student-taking-online-test.jpg');
+    background-image: url('../media/comp\ black.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -75,7 +78,7 @@ label {
 
 .input-rounded {
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0.342);
+    background-color: rgba(255, 255, 255, 0.432);
     border: none;
     transition: 0.3s;
     color: white;

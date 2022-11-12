@@ -10,6 +10,8 @@ let phone = document.querySelector("#phone")
 let rollNo = document.querySelector("#rollNo")
 let cnic = document.querySelector("#cnic")
 let course = document.querySelector("#course")
+let StudentClass = document.querySelector("#class")
+let time = document.querySelector("#timing")
 let image = document.querySelector("#image")
 let url
 let addStudent = document.querySelector("#add-Student")
@@ -36,7 +38,11 @@ async function uploadImage() {
             rollNo: rollNo.value,
             cnic: cnic.value,
             course: course.value,
+            class:StudentClass.value,
+            time:time.value 
         });
+        swal("Good job!", "You clicked the button!", "success");
+
     }
 }
 

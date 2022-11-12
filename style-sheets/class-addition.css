@@ -1,16 +1,40 @@
 
+
 .header {
-    background-color: rgba(13, 10, 70, 0.903);
+    /* background-color: rgba(13, 10, 70, 0.903); */
+    background-color: rgba(0, 199, 17, 0.903);
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#logo {
+    width: 100px;
+}
+.header h1 {
+    color: white;
+    font-family: next art;
+    padding-top:5px ;
 }
 .header ul {
+    display: flex;
+    list-style: none;
+    margin-top: 15px;
+
     color: white;
     padding-left: 15px;
     padding-right: 15px;
+}
+.header ul li {
+    padding: 0px 10px 0px 10px;
+
 }
 
 .nav-link{
     color: white;
 }
+
 .main-wrapper {
     display: flex;
     justify-content: center;
@@ -26,12 +50,19 @@
     /* position: inherit; */
     /* width:100%; */
 }
-
+a {
+    color: white;
+    text-decoration: none;
+}
 
 @media (min-width:300px) and (max-width:425px) {
 
     .form-group {
-        width: 310px;
+        width: 260px;
+    }
+    .main-wrapper{
+        padding: 20px;
+        padding-top: 0px;
     }
 
 }

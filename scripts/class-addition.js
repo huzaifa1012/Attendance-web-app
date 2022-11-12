@@ -29,6 +29,7 @@ async function addClassFunc() {
 
     // Add a new document with a generated id.
     const docRef = await addDoc(collection(db, "Classes"), {
+        courseName:courseName.value,
         sectionName: sectionName.value,
         classTiming: classTiming.value,
         Schedule: Schedule.value,

@@ -1,10 +1,15 @@
 
 .header {
-    background-color: rgba(13, 10, 70, 0.903);
+    /* background-color: rgba(13, 10, 70, 0.903); */
+    background-color: rgba(0, 199, 17, 0.903);
+
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+}
+#logo {
+    width: 100px;
 }
 .header h1 {
     color: white;
@@ -14,12 +19,14 @@
 .header ul {
     display: flex;
     list-style: none;
+    margin-top: 15px;
+
     color: white;
     padding-left: 15px;
     padding-right: 15px;
 }
 .header ul li {
-    padding: 0px 5px 0px 5px;
+    padding: 0px 10px 0px 10px;
 
 }
 
@@ -42,8 +49,22 @@
     /* position: inherit; */
     /* width:100%; */
 }
+#h1-heading {
+    font-size: 30px;
+}
+a{
+    color: white;
+    transition: 0.4s;
+    text-decoration:none;
+    color: white;
+    border-radius: 5px;
+}   
+a:hover {
+    /* padding: 3px ; */
+color: rgb(44, 221, 0);
+    background-color: white;
 
-
+}
 @media (min-width:300px) and (max-width:425px) {
 
     .form-group {
@@ -75,7 +96,10 @@
         display: none;
     }
     .form-group {
-        width: 310px;
+        width: 280px;
+    }
+    .main-wrapper {
+
     }
 
 

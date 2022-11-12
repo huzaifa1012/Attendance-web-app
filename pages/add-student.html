@@ -8,6 +8,11 @@
   <!-- GetBootstrap Form CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <!-- Sweet alert -->
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+
+
   <!-- Main Css / ConfigJs-->
   <link rel="stylesheet" href="../style-sheets/student-addition.css">
   <script src="../scripts/firebaseconfig.js" type="module"></script>
@@ -17,12 +22,13 @@
 <body>
 
   <div class="header">
-    <h1>Add Students</h1>
+    <a href="./main.html"><img src="../media/saylani logo.png" id="logo" alt=""></a>
+    <h1 id="h1-heading">Add Students</h1>
     <ul>
-      <li>Home</li>
-      <li>Students</li>
-      <li>Class</li>
-      <li>Home</li>
+      <a href="./main.html">
+        <li>HOME</li>
+      </a>
+      <li>LOGOUT</li>
     </ul>
 
 
@@ -53,10 +59,21 @@
           <label for="inputAddress2">Roll No.</label>
           <input type="text" class="form-control" id="rollNo" placeholder="Roll No.">
         </div>
+        <div class="form-group col-md-4">
+          <label for="inputState">Timing</label>
+          <select id="timing" class="form-control">
+            <option selected>09 to 11</option>
+            <option selected>11 to 01</option>
+            <option selected>02 t0 04 </option>
+            <option selected>08 to 10</option>
+            <option selected>Select Timing</option>
+            <option>...</option>
+          </select>
+        </div>
         <div class="form-row">
           <div class="form-group col-md-6">
             <label for="inputCity">CNIC</label>
-            <input type="text" class="form-control" id="cnic" placeholder="42401-523424224-1">
+            <input type="text" class="form-control" id="cnic" placeholder="42401-523424224-1" value="42401-">
           </div>
           <div class="form-group col-md-4">
             <label for="inputState">Course</label>
@@ -66,6 +83,18 @@
               <option selected>Video Animation </option>
               <option selected>Mobile Repairing</option>
               <option selected>Choose Course</option>
+              <option>...</option>
+            </select>
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputState">Class</label>
+            <select id="class" class="form-control">
+              <option selected>Sir Haider</option>
+              <option selected>Sir Ghouse</option>
+              <option selected>Sir Kashif </option>
+              <option selected>Sir Inzamam</option>
+              <option selected>Sir Kamran</option>
+              <option selected>Select Class</option>
               <option>...</option>
             </select>
           </div>

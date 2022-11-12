@@ -1,0 +1,155 @@
+body {
+    margin: 0%;
+ 
+}
+
+.main-wrapper {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(52, 56, 255, 0.342);
+    font-family: Arial Rounded MT;
+
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(13, 10, 70, 0.903);   
+}
+
+.under-main {
+    background-image: url('./IMG/extremely-focused-male-student-taking-online-test.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+
+}
+.hero {
+    margin-top: -100px;
+}
+.signin {
+    font-size: 40px;
+    padding-right: 0px;
+    color: white;
+}
+
+.signup {
+    color: white;
+}
+
+.header {
+    text-align: center;
+}
+
+label {
+    color: rgba(255, 251, 251, 0.685);
+    margin-bottom: 500px;
+}
+
+.input-rounded {
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.212);
+    border: none;
+    transition: 0.3s;
+    color: white;
+    padding-left: 15px;
+    border-radius: 100px;
+    font-size: 20px;
+    width: 35vw;
+    margin-top: 6px;
+}
+
+.btn-wrap {
+    width: 100%;
+}
+
+.signin-btn {
+    margin: 0%;
+    padding: 0px;
+    padding: 10px;
+    background-color: rgb(0, 4, 255);
+    border: none;
+    border-radius: 100px;
+    font-size: 20px;
+    color: white;
+    width: 36.5vw;
+    margin: auto;
+    transition: 0.3s;
+    justify-content: center;
+}
+
+.bottom {
+    /* wid */
+    text-align: center;
+}
+
+hr {
+    background: none;
+    border: 1px solid rgba(255, 255, 255, 0.315);
+}
+
+a {
+    color: rgb(84, 84, 251);
+    text-decoration: none;
+}
+
+
+@media (min-width:250px) and  (max-width:425px) {
+    .hero {
+        margin-top: -50px;
+    }
+    .signin {
+        font-size: 30px;
+        /* padding-right: 200px; */
+        color: white;
+    }
+    
+    
+label {
+    color: rgba(255, 251, 251, 0.685);
+    font-size: 10px;
+}
+
+
+    .input-rounded {
+        padding: 8px;
+        background-color: rgba(255, 255, 255, 0.342);
+        border: none;
+        border-radius: 100px;
+        font-size: 15px;
+        width: 250px;
+        /* margin-top: 6px; */
+    }
+    
+
+
+    .signin-btn {
+        width: 100%;
+        margin: 0%;
+        padding: 0px;
+        padding: 8px;
+        background-color: rgb(0, 4, 255);
+        border: none;
+        border-radius: 100px;
+        font-size: 15px;
+        color: white;
+        margin: auto;
+        transition: 0.3s;
+        justify-content: center;
+    }
+    
+
+.hr {
+    width: 210px;
+    background: none;
+    border: 0.5px solid white;
+}
+}

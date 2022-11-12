@@ -1,89 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <!-- GetBootstrap Form CSS -->
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
- <!-- Main Css / ConfigJs-->
- <link rel="stylesheet" href="../style-sheets/student-addition.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- GetBootstrap Form CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <!-- Main Css / ConfigJs-->
+  <link rel="stylesheet" href="../style-sheets/student-addition.css">
+  <script src="../scripts/firebaseconfig.js" type="module"></script>
+  <title>Document</title>
 </head>
+
 <body>
-    
+
   <div class="header">
-      <h1>Add Students</h1>
-      <ul>
-        <li>Home</li>
-        <li>Students</li>
-        <li>Class</li>
-        <li>Home</li>
-      </ul>
+    <h1>Add Students</h1>
+    <ul>
+      <li>Home</li>
+      <li>Students</li>
+      <li>Class</li>
+      <li>Home</li>
+    </ul>
 
 
-        <!-- <img src="" alt=""> -->
-    </div>
-    <br>
-    <div class="main-wrapper">
+    <!-- <img src="" alt=""> -->
+  </div>
+  <br>
+  <div class="main-wrapper">
 
 
-        <div class="main">
-            <form>
-               
-              <div class="form-row">
-                  <div class="form-group col-md-6">
-                    <label for="inputEmail4">Name</label>
-                    <input type="email" class="form-control" id="sname" placeholder="Student Name">
-                  </div>
-                  <div class="form-group col-md-6">
-                    <label for="inputPassword4">Father</label>
-                    <input type="password" class="form-control" id="fname" placeholder="Father Name">
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label for="inputAddress">Phone</label>
-                  <input type="text" class="form-control" id="phone" placeholder="+92123456789">
-                </div>
-                <div class="form-group">
-                  <label for="inputAddress2">Roll No.</label>
-                  <input type="text" class="form-control" id="rollNo" placeholder="Roll No.">
-                </div>
-                <div class="form-row">
-                  <div class="form-group col-md-6">
-                    <label for="inputCity">CNIC</label>
-                    <input type="text" class="form-control" id="cnic" placeholder="42401-523424224-1">
-                  </div>
-                  <div class="form-group col-md-4">
-                    <label for="inputState">Course</label>
-                    <select id="course" class="form-control">
-                      <option selected>Web & Mobile</option>
-                      <option selected>Graphice Designe</option>
-                      <option selected>Video Animation </option>
-                      <option selected>Mobile Repairing</option>
-                      <option selected>Choose Course</option>
-                      <option>...</option>
-                    </select>
-                  </div>
-                  <div class="form-group col-md-2">
-                    <label for="inputZip">Image</label>
-                    <input type="file" class="form-control" id="image" value="">
-                  </div>
-                </div>
-                <div class="form-group">
-                  <div class="form-check">
-                    
-                  </div>
-                </div>
-                <button type="button" class="btn btn-primary" id="add-Student">Add Student</button>
-              </form>
+    <div class="main">
+      <form>
+
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputEmail4">Name</label>
+            <input type="email" class="form-control" id="sname" placeholder="Student Name">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputPassword4">Father</label>
+            <input type="password" class="form-control" id="fname" placeholder="Father Name">
+          </div>
         </div>
-</div>
+        <div class="form-group">
+          <label for="inputAddress">Phone</label>
+          <input type="text" class="form-control" id="phone" placeholder="+92123456789">
+        </div>
+        <div class="form-group">
+          <label for="inputAddress2">Roll No.</label>
+          <input type="text" class="form-control" id="rollNo" placeholder="Roll No.">
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputCity">CNIC</label>
+            <input type="text" class="form-control" id="cnic" placeholder="42401-523424224-1">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputState">Course</label>
+            <select id="course" class="form-control">
+              <option selected>Web & Mobile</option>
+              <option selected>Graphice Designe</option>
+              <option selected>Video Animation </option>
+              <option selected>Mobile Repairing</option>
+              <option selected>Choose Course</option>
+              <option>...</option>
+            </select>
+          </div>
+          <div class="form-group col-md-2">
+            <label for="inputZip">Image</label>
+            <input type="file" class="form-control" id="image" value="">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="form-check">
+
+          </div>
+        </div>
+        <button type="button" class="btn btn-primary" id="add-Student">Add Student</button>
+      </form>
+    </div>
+  </div>
 
 
 
 
-
+  <script src="../scripts/add-student.js" type="module"></script>
 </body>
+
 </html>

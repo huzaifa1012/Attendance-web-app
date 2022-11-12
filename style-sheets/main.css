@@ -1,0 +1,57 @@
+#student-img {
+    width: 20px;
+}
+
+#add-student-img {
+    margin-top: -2px;
+    width: 25px;
+}
+
+#add-class-img {
+    width: 30px;
+}
+
+
+ul {
+    display: flex;
+    display: inline;
+
+}
+
+li {
+    display: inline;
+    /* display: inline; */
+}
+
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.divsOfBut {
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    margin: 10px;
+    background-color: rgba(0, 192, 26, 0.685);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.divsOfBut p {
+    width: 500px;
+}
+
+.divsOfBut h1 {
+    width: 500px;
+}
+
+
+.right{
+    width: 200px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius:20px ;
+    background-color: wheat;
+}

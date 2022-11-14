@@ -8,9 +8,8 @@ let get = document.querySelector(".button")
 get.addEventListener("click", fetchStud)
 let loader= document.querySelector(".loader")
 function fetchStud() {
-    if(fetchStudent.value == "Select Class"){
-        swal("Please Select Course!", "Particular ");
-return
+    if(fetchStudent.value === "Select Course"){
+        swal("Please Select Course!", "Select Any Course Firstly Please ");
     }
     console.log(fetchStudent.value);
     mainsec.innerHTML = "" 

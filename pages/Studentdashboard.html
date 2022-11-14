@@ -5,12 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>All Students</title>
+    <!-- Swal Alert CDN -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
     <!-- GetBootstrap Form CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" style="width: 100px;"
         rel="stylesheet">
+    <!-- Main Css / Js File -->
     <link rel="stylesheet" href="../style-sheets/dashboard.css">
     <script src="../scripts/firebaseconfig.js" type="module"></script>
+    <title>All Students</title>
 </head>
 
 <body>
@@ -23,35 +27,35 @@
             </a>
         </ul>
         <div class="right">
-            <div class="form-row">
-                <div class="form-group col-md-4">
-                    <select id="batch" class="form-control">
-                        <option selected>web & mobile</option>
-                        <option selected>Graphic Designing</option>
-                        <option selected>Mobile Repairing</option>
-                        <option selected>Select Class</option>
-                        <option>...</option>
-                    </select>
-                </div>
-            </div>
+            <a href="">Home</a>
+            <a href="">Logout</a>
         </div>
     </div>
-
 
     <div class="hero">
-        <br>
-        <p>Select the course from header then click </p>
-        <button class="button">Get</button>
-        
-        <div class="main-sec">
 
-
-<!-- Checker , First You need To Add User with correct course Name  -->
-
+        <div class="form-row">
+            <div class="form-group col-md-4">
+                <select id="course" class="form-control">
+                    <option selected>Web & Mobile</option>
+                    <option selected>Graphic Designing</option>
+                    <option selected>Mobile Repairing</option>
+                    <option selected>Artificial Intelligence</option>
+                    <option selected>Select Course</option>
+                </select>
+            </div>
         </div>
+        <br>
+
+        <button class="button">Get</button>
+    </div>
+    <div class="main-sec">
+
 
 
     </div>
+
+
 
 
 

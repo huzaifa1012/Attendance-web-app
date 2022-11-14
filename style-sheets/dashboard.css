@@ -1,23 +1,26 @@
 body {
     margin: 0px;
 }
+
 .header {
     /* background-color: rgba(13, 10, 70, 0.903); */
     background-color: rgba(0, 199, 17, 0.903);
-
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
 }
+
 #logo {
     width: 100px;
 }
+
 .header h1 {
     color: white;
     font-family: next art;
-    padding-top:5px ;
+    padding-top: 5px;
 }
+
 .header ul {
     display: flex;
     list-style: none;
@@ -27,60 +30,62 @@ body {
     padding-left: 15px;
     padding-right: 15px;
 }
+
 .header ul li {
     padding: 0px 10px 0px 10px;
 
 }
 
-.nav-link{
+.nav-link {
     color: white;
 }
 
 .main-wrapper {
     display: flex;
     justify-content: center;
- }
-
-
-/* Input Widh Controlling */
-.form-group {
-    width: 510px;
 }
 
-.main {
-    /* position: inherit; */
-    /* width:100%; */
+
+.form-group {
+    width: 510px;
 }
 #h1-heading {
     font-size: 30px;
 }
-a{
+
+a {
     color: white;
     transition: 0.4s;
-    text-decoration:none;
+    padding-left: 20px;
+    text-decoration: none;
     color: white;
     border-radius: 5px;
-}   
+}
+
 a:hover {
     /* padding: 3px ; */
-color: rgb(44, 221, 0);
+    color: rgb(44, 221, 0);
     background-color: white;
 }
+
 .right {
 
     /* width: 700px; */
-    display: flex;justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
 }
 
 .form-group {
     opacity: 0.9;
     width: 250px;
 }
+
 .hero {
-    margin-top: 20px;
+    margin-top: 30px;
     display: flex;
     justify-content: center;
 }
+
 .hero button {
     background-color: white;
     border: 1px solid blac;
@@ -88,13 +93,11 @@ color: rgb(44, 221, 0);
     border-radius: 5px;
 }
 
-#image {
-    width: 100px;
-}
 body {
     background-color: rgba(13, 10, 70, 0.903);
 
 }
+
 .main-wrap {
     /* width: 100vw; */
     height: 200px;
@@ -107,13 +110,13 @@ body {
     /* background-color: rgba(13, 10, 70, 0.903); */
 
 }
+
 #input-cnic {
     width: 70vw;
     padding: 7px;
     /* border-radius: ; */
 }
-.hero {
-}
+
 .input-rounded {
     margin-top: 200px;
     padding: 10px;
@@ -126,18 +129,21 @@ body {
     width: 70%vw;
     margin-top: 6px;
 }
+
 .button {
-    padding: 10px;
+    /* padding: 10px; */
     background-color: rgb(0, 4, 255);
     border: none;
-    margin-top: 20px;
+    /* margin-top: 20px; */
 
     border-radius: 100px;
     width: 150px;
     font-size: 20px;
-    color: white;
-    
+    color: gray;
+
+
 }
+
 .bu {
     display: flex;
     justify-content: center;
@@ -178,33 +184,43 @@ body {
         transform: rotate(360deg);
     }
 }
+
 /* ///////////////////// */
-
-
-.user-profile {
-    
+.main-sec {
     display: flex;
-    justify-content: center;
-    /* background-color: wheat; */
+    justify-content:space-evenly;
+    flex-wrap: wrap;
 }
+
+
 .backbone {
-    align-items: center;
+    align-items:    center;
     background-color: white;
+    margin: 10px;
     padding: 10px;
-    width: 300px;
-    height: fit-content;
+    width: 190px;
+    height: 400px;
     text-align: center;
 }
+
+#img-wrapper {
+    width: 10px;
+    height: 10px;
+}
+
 #prof-img {
-    width: 100%;
-    height: 80%;
+    width: auto;
+    height: 100px;
 }
+
 .backbone h2 {
-    margin: 2px ;
+    margin: 2px;
 }
+
 .backbone h3 {
-    margin: 10px ;
+    margin: 10px;
 }
+
 p {
     margin-bottom: 2px;
 }
@@ -215,15 +231,17 @@ p {
     .header {
         /* background-color: rgba(13, 10, 70, 0.903); */
         background-color: rgba(0, 199, 17, 0.903);
-    align-items: center;
+        align-items: center;
         display: flex;
         /* justify-content: space-evenly; */
         align-items: center;
         flex-wrap: wrap;
     }
+
     #h1-heading {
-    display: none;
-}
+        display: none;
+    }
+
     .form-group {
         opacity: 0.9;
         width: 310px;
@@ -249,20 +267,21 @@ p {
         padding-left: 15px;
         padding-right: 15px;
     }
+
     .header ul li {
         padding: 0px 5px 0px 5px;
-    
+
     }
-    
+
     .menu-bar-right {
         display: none;
     }
+
     .form-group {
         width: 280px;
     }
-    .main-wrapper {
 
-    }
+    .main-wrapper {}
 
 
 }

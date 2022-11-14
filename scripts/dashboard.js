@@ -6,7 +6,7 @@ let fetchStudent = document.querySelector("#course")
 let mainsec = document.querySelector(".main-sec")
 let get = document.querySelector(".button")
 get.addEventListener("click", fetchStud)
-
+let loader= document.querySelector(".loader")
 function fetchStud() {
     if(fetchStudent.value == "Select Class"){
         swal("Please Select Course!", "Particular ");
@@ -22,17 +22,16 @@ return
 //           
 console.log(data.name)
 
-mainsec.innerHTML += 
-            `
+mainsec.innerHTML += `
             <div class="backbone">
            <div class="img-wrapper">
             <img src="${data.img}" alt="" id="prof-img">
             </div>
-            <h3 id="userName">${data.name} ${data.father}</h3>
-            <p id="cnic">${data.cnic}</p>
-            <p id="phone">${data.phone}</p>
-            <p id="course"> ${data.course}</p>
-            <p id="roll">${data.rollNo}</p>
+            <h3 id="userName">${data.name}  ${data.father}</h3>
+            <p id="cnic"> CNIC : ${data.cnic}</p>
+            <p id="phone"> PHONE :   ${data.phone}</p>
+            <p id="course"> ENROLLED : ${data.course}</p>
+            <p id="roll">ROLL NO.  ${data.rollNo}</p>
             <p id="roll">sdfhkfd</p>
             </p>
             <br>
@@ -40,6 +39,6 @@ mainsec.innerHTML +=
         </div>
 `
 "asdasd "
-        });
+ });
     });
 }
